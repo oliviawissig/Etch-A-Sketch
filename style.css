@@ -1,0 +1,49 @@
+body{
+    background-color:lightsteelblue;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(16, 1fr);
+    width:600px;
+    height:600px;
+    background-color:white;
+}
+
+#btn_container{
+    text-align: center;
+    width:100%;
+    margin-bottom: 50px;
+}
+
+#reset{
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+    width:105%;
+    margin-left:-2.5%;
+    font-size:65px;
+    margin-top:40px;
+    font-family:'Lobster';
+    background-color:wheat;
+}
+
+#reset.btn{
+    width:105px;
+}
+
+.btn{
+    width:150px;
+    height:45px;
+    border-radius: 8px;
+    background-color:wheat;
+    border: 3px groove gray;
+    font-size:15px;
+    font-family:'Sanchez';
+}
+
+#color.btn{
+    width:95px;
+}
